@@ -42,3 +42,37 @@ print(final_str)
 print(len(final_str))
 
 """
+
+#indexing
+
+"""
+
+str = "random people"
+# print(str[1]) #direct output
+ch = str[1]
+print(ch)
+
+# string indexing e amra just string er character ke access korte parbo but new kono character diye replace korte parbo na
+# str[4] = "m"
+# print(str)
+
+"""
+
+# *Slicing* ==>> Positive index <<==
+
+#structure: str[starting_indx : ending_indx] ==> ending index is not include
+
+"""
+str = "apna college"
+print(str[5 : 12]) 
+print(len(str[5 : 12]))
+print(str[5 : len(str)]) #len() => string length ber korar jonno
+
+"""
+
+# *Slicing* ==>> Negative index <<==
+
+# *Negative index e numbering ta right side theke (-1) theke suru hoy and right theke left e (-1) kore barte thake
+
+str = "Apple"
+print(str[-5 : -2]) # App
